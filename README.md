@@ -1,2 +1,2 @@
 # thunder.wtf
-Thunder Website
+A website for all the Thunder products.
