@@ -1,2 +1,4 @@
-# thunder.wtf
-A website for all the Thunder products.
+# zfranzz.github.io
+
+A website for Thunder products.
+Soon to be renamed to https://thunderutils.lgbt
