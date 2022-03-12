@@ -1,36 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" href="body.css">
-    <head>
-        <title>thunder.wtf</title>
-        <a href="https://github.com/Pupetus" target="_blank" rel="noopener noreferrer">
-            <div style="text-align: right;"><img src="githublogo.png"></div>
-        </a>
-        <div class="align-center">
-            <img src="thunderlogolight.png" alt="Mfw html broke :pleadiong fac:">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Righteous&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <!-- Navbar Section -->
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-code"></i></i>Thunder</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"> </span>
+                <span class="bar"> </span>
+                <span class="bar"> </span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">About</a>
+                </li>
+            </ul>
         </div>
-        &nbsp;
-    </head>
-    <body>
-        &nbsp;
-        <h3>Features</h3>
-        <p class="pre">Thunder Clicker is a free injectable minecraft autoclicker with clicksounds, a customisable left clicker, randomisation, and much more.</p>
-        &nbsp;
-        <h3>Development</h3>
-        <p class="pre">Thunder is a C# application, made by dummy69 and Franzz.</p>
-        &nbsp;
-        <h3>Discord</h3>
-        <p class="pre"> https://discord.gg/NJGRD82dn2 </p>
-        &nbsp;
-        <h2>Download</h2>
-        <p class="pre">Click the button below to download Thunder Clicker. Extract the .zip to a folder and run the .exe</p>
-        <div class ="align-center">
-            <a class="button" href="https://github.com/Pupetus/ThunderClickerApp/archive/refs/tags/v2.2.zip">Thunder v2</a>
+    </nav>
+
+    <!-- Main Section -->
+
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>THUNDER PRODUCTS</h1>
+                <h2>SKIDDED BEYOND BELIEF</h2>
+                <p>Check out some of our Products.</p>
+                <a href="#product__jump"><button class="main__btn">Products</button></a>
+            </div>
+            <div class="main__img--container">
+                <img src="images/main.png">
+            </div>
         </div>
-        &nbsp;
-        <h3>Support</h3>
-        <p class="pre">For support, join our discord or dm zFranzz_#2100.</p>
-        &nbsp;
-        
-    </body>
+    </div>
+
+    <!-- Products Section -->
+    <a id="product__jump">
+    <div class="products">
+       <h1>Premium Skidding</h1>
+        <div class="products__container">
+            <div class="products__card">
+                <h2>Thunder Clicker <i class="fas fa-mouse-pointer"></i></h2>
+                <p>With a max FPS of 13.</p>
+                <a href="/clicker.html"><button>Get Started</button></a>
+            </div>
+            <div class="products__card">
+                <h2>Thunder Client <i class="fas fa-dumpster-fire"></i></h2>
+                <p>Doesnt even bypass Vanilla!</p>
+                <a href="/client.html"><button>Get Started</button></a>
+            </div>
+            <div class="products__card">
+                <h2>Thunder Utils <i class="fas fa-server"></i></h2>
+                <p>Horrible plugins for your even worse server.</p>
+                <a href="/utils.html"><button>Get Started</button></a>
+            </div>
+        </div>
+    </div>
+</a>
+
+    <!-- Footer Section -->
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2 id="footer__logo"><i class="fas fa-code"></i></i>Thunder</h2>
+                    <a href="/tos.html"><i class="fas fa-concierge-bell"></i> Terms of Service</a>
+                    <a href="/pp.html"><i class="fas fa-user-secret"></i> Privacy Policy</a>
+                    <a href="/about.html"><i class="fas fa-address-card"></i> About Us</a>
+                    <a href="https://discord.gg/DhHdV5Wg78"><i class="fab fa-discord"></i> Our Discord</a>
+                    <p class="website-right"><i class="fas fa-copyright"></i> Thunder 2022. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
 </html>
