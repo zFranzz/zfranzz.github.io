@@ -638,6 +638,23 @@
     background-color: #59146c;
   }
 
+/* Scrollbar CSS */
+
+.scrollbar {
+	background-color: #F5F5F5;
+	float: left;
+	height: 300px;
+	margin-bottom: 25px;
+	margin-left: 22px;
+	margin-top: 40px;
+	width: 65px;
+	overflow-y: scroll;
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -648,8 +665,10 @@
    
 ::-webkit-scrollbar-thumb {
     background: #6f3e99; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   }
   
 ::-webkit-scrollbar-thumb:hover {
     background: #502e6d; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   }
