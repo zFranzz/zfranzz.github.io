@@ -640,21 +640,6 @@
 
 /* Scrollbar CSS */
 
-.scrollbar {
-	background-color: #F5F5F5;
-	float: left;
-	height: 300px;
-	margin-bottom: 25px;
-	margin-left: 22px;
-	margin-top: 40px;
-	width: 65px;
-	overflow-y: scroll;
-}
-
-.force-overflow {
-	min-height: 450px;
-}
-
 ::-webkit-scrollbar {
     width: 10px;
   }
