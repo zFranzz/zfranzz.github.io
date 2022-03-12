@@ -1,7 +1,5 @@
 # Site For Thunder Products
 
----
-
 ## The World's Best Skids for the World's Worst Hackers.
 
 ### Get it today at [zfranzz.github.io](https://zfranzz.github.io)
