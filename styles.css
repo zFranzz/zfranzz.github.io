@@ -429,7 +429,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 150vh;
+    padding-bottom: 30vh
 }
 
 .products__card {
